@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'noto sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100;
+    overflow-x: hidden;
+    background-color: #D3CE57;
+    color: black;
+    text-align: center;
+    top: 5%;
+    align-items: center;
+    align-content: center;
+     z-index: 100;
+    left: 0;
+    
+}
+.credencial{
+    border-radius: 0%;
+   
+}
+h1{
+    color: #E555E0 ;
+    font-size: 2.5rem ;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-weight: 800;
+}
+.credencial h2{
+    font-size: 1.8rem;
+    color: #E555E0;
+}
+.neon-box {
+  color: #fff;
+  margin: 0 auto;
+  background-color: transparent; 
+  border:7px solid #E555E0; 
+  border-radius: 10%;
+  height: 7%;
+  width: 70vh;
+   box-sizing: border-box;
+   
+}
+.envio input{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    background-color:transparent;
+    border:0.2rem solid #E555E0;
+    color:#E555E0;
+    border-radius: 1rem;
+    font-size: 2rem;   
+    letter-spacing: 0.1rem;
+    
+}
+.envio input:hover{
+    color: #D3CE57;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #E555E0;
+    box-shadow: 0 0 25px #E555E0;
+}
+.centralizar label{
+    font-size: 1.2rem;
+    color: #E555E0 ;   
+    font-weight: 700;
+    display: flex;
+
+}
+.centralizar input {
+    color: black;
+    border: 0.2rem solid #E555E0 ;
+    padding: 0.2rem;
+    font-size:1rem;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+.centralizar textarea{
+    color: black;
+    border: 0.2rem solid #E555E0 ;
+    padding: 0.2rem;
+    width: 85%;
+    font-size:1rem;
+    box-sizing: border-box  ;
+}
+.centralizar{
+    text-align: left;
+    padding-left: 2rem;
+    
+}
+.centralizar h2{
+    font-size: 1.4rem;
+}   
+
+ .tusk img {   
+    position: relative;
+    height: auto;
+    width:40vh; 
+    bottom:550px;
+    right: 320px;
+    display: inline-flex;
+    padding: auto;
+    justify-content: right;
+    align-items: right;
+    left: auto;
+    top: auto;
+}
+   

@@ -362,3 +362,106 @@ span{
         bottom: 220px;
         left: 55%;
 }
+.blocos  .credencial{
+    border-radius: 0%;
+   
+}
+ .blocos .credencial h2{
+    font-size: 2rem; 
+     color: #E555E0;
+     
+}
+.blocos .neon-box {
+  color: #fff;
+  margin: 0 auto;
+  background-color: transparent; 
+  border:7px solid #E555E0; 
+  border-radius: 10%;
+  height: 59vh;
+  width: 70vh;
+  box-sizing: border-box;
+}
+.blocos .envio input{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    width: 10rem;
+    height: 4rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1.3rem;
+    background-color:transparent;
+    border:0.2rem solid #E555E0;
+    color:#E555E0;
+    border-radius: 1rem;
+    font-size: 2rem;   
+    letter-spacing: 0.1rem;
+    
+    
+}
+.blocos .envio input:hover{
+    color: #D3CE57;
+    transform: scale(1.1) translateY(0px);
+    background-color: #E555E0;
+    box-shadow: 0 0 25px #E555E0;
+    
+}
+.blocos .centralizar label{
+    font-size: 2.5rem;
+    color: #E555E0 ;   
+    font-weight: 700;
+    box-sizing: border-box;
+    display: flex;
+}
+.blocos .centralizar input {
+    color: black;
+    border: 0.3rem solid #E555E0 ;
+    padding: 0.2rem;
+    font-size:1.5rem;
+    width: 50%;
+    box-sizing: border-box;
+  
+
+}
+.blocos .credencial input {
+    color: black;
+    border: 0.3rem solid #E555E0 ;
+    padding: 0.2rem;
+    font-size:1.5rem;
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+.blocos .credencial textarea{
+    color: black;
+    border: 0.3rem solid #E555E0 ;
+    padding: 0.2rem;
+    width: 85%;
+    font-size:1.5rem;
+    box-sizing: border-box  ;
+    
+}
+.blocos .centralizar{
+    text-align: left;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.blocos .centralizar h2{
+    font-size: 3rem;
+}   
+
+ .blocos  .tusk img {   
+    position: relative;
+    height: auto;
+    width:40vh; 
+    bottom:550px;
+    right: 320px;
+    display: inline-flex;
+    padding: auto;
+    justify-content: right;
+    align-items: right;
+    left: auto;
+    top: auto;
+}
+  
